@@ -29,6 +29,7 @@ namespace SimpleProject
         static void Main(string[] args)
         {
             DirectoryInfo dir = new DirectoryInfo(@"C:\Test");
+
             if (!dir.Exists) // если каталог не существует
             {
                 dir.Create(); // создаем каталог
